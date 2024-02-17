@@ -7,6 +7,9 @@ function subtracao(a, b) {
 }
 
 function divisao(a, b) {
+    if (b === 0) {
+        return 'Não é possível realizar a divisão por zero.'
+    }
     return a/b
 }
 
